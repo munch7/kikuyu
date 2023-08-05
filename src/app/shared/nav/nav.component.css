@@ -1,0 +1,34 @@
+.bar{
+    background: linear-gradient(orangered, rgb(255, 143, 103), orangered); 
+    color: rgb(49, 48, 48);
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+a{
+    color: rgb(49, 48, 48); 
+    text-decoration: none;
+    cursor: default;
+}
+.link{
+    padding: 8px;
+    font-size: x-large;
+}
+.bar.bar--hidden {
+  transform: translateY(-100%);
+}
+.nav-link{
+    font-size: x-large;
+    margin: 10px;
+    color: rgb(1, 65, 148);
+}
+.navbar{
+    margin: 0px;
+    padding-top: 24px;
+    float: right;
+}
+h1{
+    float: left;    
+}

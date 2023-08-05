@@ -1,0 +1,19 @@
+.container{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 250px;
+    font-family: abel;
+    font-size: larger;
+    background-image: url("../assets/1_1sBWJjm7QuDiiKbqEOMLnA.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    color: rgb(255, 255, 255);
+    font-family: abel;
+    font-size: larger;
+}

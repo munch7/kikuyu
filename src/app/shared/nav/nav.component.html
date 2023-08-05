@@ -1,0 +1,63 @@
+<div class="col-md-12 col-sm-12 col-xs-12 bar">
+
+  <div class="col-md-12 col-sm-12 col-xs-12" 
+    fxShow="true" 
+    fxHide.lt-md="true" 
+    style="padding: 0px; margin: 0px">
+
+    <a routerLink="/home" style="float:left">
+      <img src="../../../assets/logo.png" style="width: 100px;">
+    </a>
+    <h1 style="color: rgb(1, 65, 148);">K.PIPES & FITTINGS CENTRE</h1>
+    <nav class="navbar">
+      <a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
+      <a class="nav-link" routerLink="/products" routerLinkActive="active">Products</a>
+      <a class="nav-link" routerLink="/contacts" routerLinkActive="active">Contacts</a>
+      <a href="https://www.youtube.com/channel/UCRRivmSErZUOvKbLNmOSbCA" target="blank" class="link">
+          <i class="fa fa-youtube"></i>
+      </a>
+      <a href="https://www.instagram.com/k_pipes_and_fittings/" target="blank" class="link">
+          <i class="fa fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/Kpipescentre/" target="blank" class="link">
+          <i class="fa fa-facebook"></i>
+      </a>
+      <a href="https://twitter.com/kpipess" target="blank" class="link">
+          <i class="fa fa-twitter"></i>
+      </a>
+    </nav>
+  </div>
+
+  <div class="col-sm-12 col-xs-12" 
+    fxHide fxShow.lt-md 
+    style="padding: 0px;">
+      <mat-toolbar style="background: transparent;">
+        <mat-menu #menu="matMenu" fxShow="true" fxHide.lt-md="true">
+          <button mat-menu-item routerLink="/about">About</button>
+          <button mat-menu-item routerLink="/products">Products</button>
+          <button mat-menu-item routerLink="/contacts">Contact us</button>
+        </mat-menu>
+        <button mat-button [matMenuTriggerFor]="menu" fxHide fxShow.lt-md>
+          <i class="fa fa-bars" 
+            style="font-size: x-large;">
+          </i>
+        </button>
+        <a routerLink="/home" style="float:left">
+            <img src="../../../assets/logo.png" style="width: 74px;">
+            <a href="https://www.youtube.com/channel/UCRRivmSErZUOvKbLNmOSbCA" target="blank" class="link">
+                <i class="fa fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/k_pipes_and_fittings/" target="blank" class="link">
+                <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/Kpipescentre/" target="blank" class="link">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/kpipess" target="blank" class="link">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </a>
+      </mat-toolbar>
+  </div>
+
+</div>
